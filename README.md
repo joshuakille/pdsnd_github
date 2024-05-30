@@ -11,5 +11,7 @@ This app uses data from Bikeshare service in multiple cities to display customiz
 bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+[https://stackoverflow.com/questions/19392226/attributeerror-dataframe-object-has-no-attribute] (https://stackoverflow.com/questions/19392226/attributeerror-dataframe-object-has-no-attribute)
+[https://stackoverflow.com/questions/37787698/how-to-sort-pandas-dataframe-by-one-column] (https://stackoverflow.com/questions/37787698/how-to-sort-pandas-dataframe-by-one-column)
+[https://stackoverflow.com/questions/53129971/remove-the-days-in-the-timedelta-object] (https://stackoverflow.com/questions/53129971/remove-the-days-in-the-timedelta-object)
+[https://www.statology.org/pandas-exclude-column/] (https://www.statology.org/pandas-exclude-column/)
