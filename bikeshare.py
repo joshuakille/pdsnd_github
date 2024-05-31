@@ -176,8 +176,8 @@ def user_stats(df):
     if city == 'washington':
         print('Gender data not available for this city\n')
     else:
-        gender_count = df['Gender'].value_counts()
-        print(f'The counts of users by gender is \n{gender_count}')
+        gender = df['Gender'].value_counts()
+        print(f'The counts of users by gender is \n{gender}')
 
     #Display earliest, most recent, and most common year of birth
     
