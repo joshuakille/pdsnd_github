@@ -19,7 +19,7 @@ def get_filters():
     #Get user input for city
     while True:
         cities = ['chicago', 'c', 'new york city', 'n', 'washington', 'w']
-        city = input('Specify a city (C)hicago, (N)ew York City, (W)ashington: ').lower()
+        city = input('Choose one city only: (C)hicago, (N)ew York City, (W)ashington ').lower()
         if city in cities:
             if city == 'c':
                 city = 'chicago'
@@ -176,8 +176,8 @@ def user_stats(df):
     if city == 'washington':
         print('Gender data not available for this city\n')
     else:
-        gender_count = df['Gender'].value_counts()
-        print(f'The counts of users by gender is \n{gender_count}')
+        gender = df['Gender'].value_counts()
+        print(f'The counts of users by gender is \n{gender}')
 
     #Display earliest, most recent, and most common year of birth
     
@@ -192,7 +192,7 @@ def user_stats(df):
     print('-'*40)
 
 def ind_data(df):
-    prompt = input('Would you like to view 5 lines of individual trip data? (Y / N): ')
+    prompt = input('Would you like to view 5 lines of individual trip data? Choose (Y) or (N) only: ')
     if prompt.lower() == 'y':
         count = 0
         while count < df.shape[0]:
