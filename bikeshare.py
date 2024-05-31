@@ -192,7 +192,7 @@ def user_stats(df):
     print('-'*40)
 
 def ind_data(df):
-    prompt = input('Would you like to view 5 lines of individual trip data? (Y / N): ')
+    prompt = input('Would you like to view 5 lines of individual trip data? Choose (Y) or (N) only: ')
     if prompt.lower() == 'y':
         count = 0
         while count < df.shape[0]:
