@@ -19,7 +19,7 @@ def get_filters():
     #Get user input for city
     while True:
         cities = ['chicago', 'c', 'new york city', 'n', 'washington', 'w']
-        city = input('Specify a city (C)hicago, (N)ew York City, (W)ashington: ').lower()
+        city = input('Choose one city only: (C)hicago, (N)ew York City, (W)ashington ').lower()
         if city in cities:
             if city == 'c':
                 city = 'chicago'
